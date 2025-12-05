@@ -6,7 +6,7 @@ GIT COMMANDS
  git remote add origin <remote url>
  
  Example:
- git  remote add origin https:github.com/Ranjithsadula/JFS_VISEM
+ git  remote add origin https:github.com/KrishnaChanduGoud/JFS_VISEM
  
  git push orgin master
  you can check in remote repository
