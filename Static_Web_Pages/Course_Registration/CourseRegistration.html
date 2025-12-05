@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration Form</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Course Registration Form</h2>
+    <form id="regForm">
+       <label>  Student Name:</label>
+       <input type="text" id="name" placeholder="Enter your Name" required> <br>
+         <label>  Student Subjects:</label>
+         <div class="Subject-list">
+            <label>
+                <input type="checkbox" class="subject" value="1999"> Data Structures ( $1999)
+            </label> <br>
+            <label>
+                <input type="checkbox" class="subject" value="1199"> Operating Systems ( $1199)    
+            </label><br>
+            <label>
+                <input type="checkbox" class="subject" value="1499"> DBMS ( $1499)
+            </label><br>
+            <label>
+                <input type="checkbox" class="subject" value="1999"> Computer Networks ( $1999)
+            </label><br>
+            <label>
+                <input type="checkbox" class="subject" value="2999"> Java Programming( $2999)
+            </label><br>
+            <label>
+                <input type="checkbox" class="subject" value="4999"> JFS ( $4999)
+            </label><br>
+            <label>
+                <input type="checkbox" class="subject" value="5999"> CP ( $5999)
+            </label>
+         </div>
+            <div class="total-box">
+                Total Registration Fee:<span id="total">$0</span>
+            </div>
+            <button type="submit">Submit Registration</button>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

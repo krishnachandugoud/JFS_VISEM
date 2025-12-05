@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman';
+    background: rgba(0, 255, 255, 0.711);
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(254, 254, 254);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.11);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(215, 20, 20);
+}
+
+.subject-list label {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.total-box {
+    background: #aeaeae;
+    padding: 20px;
+    font-size: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
