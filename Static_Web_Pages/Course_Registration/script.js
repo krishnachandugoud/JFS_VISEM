@@ -1,6 +1,6 @@
 let subjects = document.querySelectorAll(".subject");
 let totalBox = document.getElementById("total");
-
+let messagebox = document.getElementById("resultMessage");
 subjects.forEach(item => {
     item.addEventListener("change", () => {
         let total = 0;
@@ -15,7 +15,6 @@ subjects.forEach(item => {
     });
 });
 
-// Submit form
 document.getElementById("regForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
@@ -32,7 +31,9 @@ document.getElementById("regForm").addEventListener("submit", function(e) {
     });
 
     if (selectedSubjects.length === 0) {
-        alert("Please select at least one subject.");
+        messagebox.style.display="black";
+        messagebox.style.background="white";
+        message 
         return;
     }
 
@@ -43,5 +44,7 @@ document.getElementById("regForm").addEventListener("submit", function(e) {
         "Selected Subjects:\n- " + selectedSubjects.join("\n- ") + "\n\n" +
         "Total Fee: $" + totalFee;
 
-    alert(message);
+    messagebox.style.display = "Black";
+    message.innerText=message;
+    
 });

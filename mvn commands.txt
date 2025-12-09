@@ -1,0 +1,21 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>mvn archetype:generate -DgroupId=com.slillnext2 -DartifactId=learning -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>cd learning
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning>mvn compile
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning>dir
+
+Directory of D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning>mvn package 
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning>cd target
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning\target>dir
+
+12/09/2025  11:19 AM             2,093 learning-1.0-SNAPSHOT.jar
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning\target>java -cp learning-1.0-SNAPSHOT.jar com.slillnext2.App
+Hello World!
