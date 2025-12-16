@@ -1,7 +1,7 @@
 Microsoft Windows [Version 10.0.26200.7171]
 (c) Microsoft Corporation. All rights reserved.
 
-D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>mvn archetype:generate -DgroupId=com.slillnext2 -DartifactId=learning -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>mvn archetype:generate -DgroupId=com.skillnext2 -DartifactId=learning -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>cd learning
 
@@ -19,3 +19,22 @@ D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning\target>dir
 
 D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\learning\target>java -cp learning-1.0-SNAPSHOT.jar com.slillnext2.App
 Hello World!
+
+
+---------------------------------------
+mvn with jdbc
+
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>mvn archetype:generate -DgroupId=com.skillnext2 -DartifactId=student_jdbc -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects>cd student_jdbc
+
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\student_jdbc>mvn clean install
+
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\student_jdbc>mvn dependency:copy-dependencies
+
+
+D:\kcg\6 th sem\pat\JFS_VISEM\Maven_projects\student_jdbc>mvn exec:java -Dexec.mainClass=com.skillnext2.App
